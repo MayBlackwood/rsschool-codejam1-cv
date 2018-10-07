@@ -1,0 +1,267 @@
+@font-face {
+  font-family: 'Lora-Bold';
+  src:url("fonts/Lora/Lora-Bold.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;	
+}
+
+header {
+  margin: 0;
+  height: 250px;
+  padding: 0;
+  background: url("images/header2.png") no-repeat;
+  box-shadow: 0 10px 10px -6px black;
+}
+
+.main-data {
+  height: 80%;
+  width: 70%;
+  margin: 0 auto 25px auto;
+}
+
+.photo {
+  float: left;
+  width: 50%;
+  height: 100%;	
+  padding-top: 15px;
+}
+
+.photo img {
+  padding-left: 25%;
+}
+
+.info {
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.name {
+  width: auto;
+  height: 45%;
+  margin-bottom: 5px;
+  border-bottom: 5px solid black;
+}
+
+.name span {
+  padding: 0 auto;
+  text-align: left;
+  font-size: 2.8em;
+  line-height: 135px;	
+  font-family: "Righteous", "Georgia", serif;
+  color: white;
+}
+
+.contacts {
+  width: auto;
+  height: 55%;
+}
+
+.contacts span {
+  color: grey;
+  vertical-align: top;
+  font-weight: bold;
+  text-shadow: 0 0 3px black;
+}
+
+.fb a,
+.gh a {
+  color: grey;
+  text-decoration: none;
+}
+
+.fb a:hover,
+.gh a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+main {
+  width:auto;
+  min-height: 1320px;
+  padding: 30px 25px 25px 25px;
+  background-color: rgba(20, 29, 43, 0.9);
+}
+
+.summary {
+  width: auto;
+  height: auto;
+}
+
+ h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Righteous", "Georgia", serif;
+  color: white;
+}
+
+
+.summary section {
+  width: auto;
+  height: auto;
+  padding: 30px 25px 25px 25px;margin:0 50px 30px 50px;
+  border-top: 5px solid grey;
+}
+
+.summary section p {
+  text-align: center;
+  font-size: 1.2em;
+  color: white;
+  font-family: 'Lora', serif;
+}
+
+.experiance {
+  display: block;
+  width: 55%;
+  height: 450px;
+}
+
+.experiance section,
+.code-exp section,
+.english section {
+  width: auto;
+  height: auto;
+  margin: 0 50px;
+  border-top: 5px solid grey;
+}
+
+.experiance ul li,
+.code-exp ul li{
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  vertical-align: top;
+  list-style-image: url("images/list-style-img.png");
+}
+
+.experiance ul li a,
+.code-exp ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lora', serif;
+}
+
+.experiance ul li a:hover,
+.code-exp ul li a:hover {
+  color: grey;
+  text-decoration: underline;
+  font-family: "Lora", "Georgia", serif;
+}
+
+aside {
+  float: right;
+  width: 45%;
+}
+
+.skills {
+	height: 450px;
+}
+
+.skills section,
+.education section {
+  width: auto;
+  height: auto;
+  margin: 0 50px;
+  border-top: 5px solid grey;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills li {
+  margin: 10px 0 10px -20px;  
+  text-align: center;
+  vertical-align: top;
+}
+
+.skills ul img {
+  padding: 0 10px;
+}
+
+.education {
+  height: 440px;
+}
+
+.code-exp {
+  display: block;
+  width: 55%;
+  height: 250px;	
+}
+
+.education section {
+  width: auto;
+  height: auto;
+  margin: 0 50px;
+  border-top: 5px solid grey;
+}
+
+.education ul li{
+  padding: 5px 0;
+  color: white;
+  font-family: "Lora", "Georgia", serif;
+  font-size: 18px;
+  list-style-image: url("images/education.png");
+}
+
+.dop-ed li {
+  font-size: 14px;
+  color: white;
+  font-family: "Lora", "Georgia", serif;
+  list-style-image: url("images/book.png")!important;	
+}
+
+.education ul li span {
+  font-style: italic;
+  color: grey;
+  text-decoration: underline;
+}
+
+.english {
+  width: 55%;
+  height: 300px;
+  display: block;
+}
+
+.english ul li{
+  color:white;	
+  font-family: "Lora", "Georgia", serif;
+  font-size: 18px;
+  list-style: none;
+}
+
+.english ul li:before {
+  content: "—";
+  position: relative;
+  left: -5px;
+}
+
+.english ul li span {
+  color: grey;
+  font-style: italic;
+}
+
+.english section > p {
+  color: white;
+  font-family: "Lora-Bold", "Georgia", serif;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+footer {
+  height:60px;
+  width:1024px;
+  box-shadow: 0px -12px 14px -11px #000000;
+}
